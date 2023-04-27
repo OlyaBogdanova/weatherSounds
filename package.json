@@ -1,0 +1,11 @@
+{
+  "homepage": "https://olyabogdanova.github.io/weathersounds",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    }
+  
+}
